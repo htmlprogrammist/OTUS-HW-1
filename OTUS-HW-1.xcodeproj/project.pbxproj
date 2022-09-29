@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F060193928E5F15D008B25A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060193828E5F15D008B25A0 /* main.swift */; };
+		F060194128E5F55F008B25A0 /* Task-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060194028E5F55F008B25A0 /* Task-4.swift */; };
+		F060194328E5F6A0008B25A0 /* Task-5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060194228E5F6A0008B25A0 /* Task-5.swift */; };
+		F060194528E5F6A6008B25A0 /* Task-6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060194428E5F6A6008B25A0 /* Task-6.swift */; };
+		F060194728E5F6BF008B25A0 /* Task-7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060194628E5F6BF008B25A0 /* Task-7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,11 @@
 /* Begin PBXFileReference section */
 		F060193528E5F15D008B25A0 /* OTUS-HW-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OTUS-HW-1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F060193828E5F15D008B25A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F060193F28E5F1CF008B25A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F060194028E5F55F008B25A0 /* Task-4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task-4.swift"; sourceTree = "<group>"; };
+		F060194228E5F6A0008B25A0 /* Task-5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task-5.swift"; sourceTree = "<group>"; };
+		F060194428E5F6A6008B25A0 /* Task-6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task-6.swift"; sourceTree = "<group>"; };
+		F060194628E5F6BF008B25A0 /* Task-7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task-7.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,7 @@
 		F060192C28E5F15D008B25A0 = {
 			isa = PBXGroup;
 			children = (
+				F060193F28E5F1CF008B25A0 /* README.md */,
 				F060193728E5F15D008B25A0 /* OTUS-HW-1 */,
 				F060193628E5F15D008B25A0 /* Products */,
 			);
@@ -58,6 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				F060193828E5F15D008B25A0 /* main.swift */,
+				F060194028E5F55F008B25A0 /* Task-4.swift */,
+				F060194228E5F6A0008B25A0 /* Task-5.swift */,
+				F060194428E5F6A6008B25A0 /* Task-6.swift */,
+				F060194628E5F6BF008B25A0 /* Task-7.swift */,
 			);
 			path = "OTUS-HW-1";
 			sourceTree = "<group>";
@@ -121,6 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F060193928E5F15D008B25A0 /* main.swift in Sources */,
+				F060194528E5F6A6008B25A0 /* Task-6.swift in Sources */,
+				F060194128E5F55F008B25A0 /* Task-4.swift in Sources */,
+				F060194328E5F6A0008B25A0 /* Task-5.swift in Sources */,
+				F060194728E5F6BF008B25A0 /* Task-7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
