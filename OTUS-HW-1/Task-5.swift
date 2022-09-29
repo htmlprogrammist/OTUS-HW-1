@@ -31,8 +31,27 @@ func task51() {
     for _ in 0..<10 {
         numbers.append(Int.random(in: 0..<10))
     }
+    print(numbers) // до изменений
     
+    /**
+     Алгоритм следующий:
+     1. Получить максимальный и минимальный элемент массива с помощью методов `min()`,`max()`;
+     2. Найти индекс этих элементов с помощью метода `min()`;
+     3. Зная индекс, поменять их местами.
+     */
     
+    /// Получение максимального и минимального элемента массива.
+    let minNumber = numbers.min() ?? 0
+    let maxNumber = numbers.max() ?? 0
+    
+    /// Индексы минимального и максимального элемента массива. По умолчанию 0.
+    let minNumberIndex: Int = numbers.firstIndex(of: minNumber) ?? 0
+    let maxNumberIndex: Int = numbers.firstIndex(of: maxNumber) ?? 0
+    
+    /// Чтобы поменять их местами воспользуемся методом массива `swapAt()`
+    numbers.swapAt(minNumberIndex, maxNumberIndex)
+    
+    print(numbers) // после изменений
 }
 
 func task52() {
