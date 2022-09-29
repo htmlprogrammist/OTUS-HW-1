@@ -6,5 +6,5 @@
 //
 
 //task4()
-task5()
-//task6()
+//task5()
+task6()
